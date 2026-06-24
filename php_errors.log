@@ -1,0 +1,57 @@
+[24-Jun-2026 06:12:12 UTC] PHP Warning:  Undefined array key "REQUEST_METHOD" in /workspaces/fertio/index.php on line 1195
+[24-Jun-2026 06:12:12 UTC] PHP Warning:  Undefined array key "REQUEST_METHOD" in /workspaces/fertio/index.php on line 1683
+[24-Jun-2026 06:12:12 UTC] PHP Warning:  Undefined array key "REQUEST_URI" in /workspaces/fertio/index.php on line 1761
+[24-Jun-2026 06:12:12 UTC] PHP Deprecated:  parse_url(): Passing null to parameter #1 ($url) of type string is deprecated in /workspaces/fertio/index.php on line 1761
+[24-Jun-2026 06:22:05 UTC] getPostBySlug: пост с slug 'seo' не найден
+[24-Jun-2026 07:21:20 UTC] getPostBySlug: пост с slug 'sddf' не найден
+[24-Jun-2026 11:49:56 UTC] PHP Warning:  Undefined array key "REQUEST_METHOD" in /workspaces/fertio/index.php on line 1200
+[24-Jun-2026 11:49:56 UTC] PHP Warning:  Undefined array key "REQUEST_METHOD" in /workspaces/fertio/index.php on line 1688
+[24-Jun-2026 11:49:56 UTC] PHP Warning:  Undefined array key "REQUEST_URI" in /workspaces/fertio/index.php on line 1766
+[24-Jun-2026 11:49:56 UTC] PHP Deprecated:  parse_url(): Passing null to parameter #1 ($url) of type string is deprecated in /workspaces/fertio/index.php on line 1766
+[24-Jun-2026 11:49:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getCurrentUser() in /workspaces/fertio/index.php:4521
+Stack trace:
+#0 {main}
+  thrown in /workspaces/fertio/index.php on line 4521
+[24-Jun-2026 11:51:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getCurrentUser() in /workspaces/fertio/index.php:4521
+Stack trace:
+#0 /workspaces/fertio/router.php(31): require()
+#1 {main}
+  thrown in /workspaces/fertio/index.php on line 4521
+[24-Jun-2026 12:17:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getCurrentUser() in /workspaces/fertio/index.php:4521
+Stack trace:
+#0 /workspaces/fertio/router.php(31): require()
+#1 {main}
+  thrown in /workspaces/fertio/index.php on line 4521
+[24-Jun-2026 12:24:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getCurrentUser() in /workspaces/fertio/index.php:4521
+Stack trace:
+#0 /workspaces/fertio/router.php(31): require()
+#1 {main}
+  thrown in /workspaces/fertio/index.php on line 4521
+[24-Jun-2026 12:24:52 UTC] PHP Warning:  Constant DATA_DIR already defined in /workspaces/fertio/index.php on line 16
+[24-Jun-2026 12:24:52 UTC] PHP Warning:  Constant USERS_FILE already defined in /workspaces/fertio/index.php on line 17
+[24-Jun-2026 12:24:52 UTC] PHP Warning:  Constant POSTS_DIR already defined in /workspaces/fertio/index.php on line 18
+[24-Jun-2026 12:24:52 UTC] PHP Warning:  Constant PROFILES_DIR already defined in /workspaces/fertio/index.php on line 19
+[24-Jun-2026 12:24:52 UTC] PHP Warning:  Constant AVATARS_DIR already defined in /workspaces/fertio/index.php on line 20
+[24-Jun-2026 12:24:52 UTC] PHP Warning:  Constant COMMENTS_DIR already defined in /workspaces/fertio/index.php on line 21
+[24-Jun-2026 12:24:52 UTC] PHP Warning:  Constant NOTIFICATIONS_DIR already defined in /workspaces/fertio/index.php on line 22
+[24-Jun-2026 12:24:52 UTC] PHP Warning:  Constant MUSIC_DIR already defined in /workspaces/fertio/index.php on line 23
+[24-Jun-2026 12:24:52 UTC] PHP Warning:  Constant STICKERS_DIR already defined in /workspaces/fertio/index.php on line 24
+[24-Jun-2026 12:24:52 UTC] PHP Warning:  Constant CODING_DIR already defined in /workspaces/fertio/index.php on line 25
+[24-Jun-2026 12:24:52 UTC] PHP Warning:  Constant THEMES_DIR already defined in /workspaces/fertio/index.php on line 26
+[24-Jun-2026 12:24:52 UTC] PHP Warning:  Constant MAX_FILE_SIZE already defined in /workspaces/fertio/index.php on line 27
+[24-Jun-2026 12:24:52 UTC] PHP Warning:  Constant MAX_AVATAR_SIZE already defined in /workspaces/fertio/index.php on line 28
+[24-Jun-2026 12:24:52 UTC] PHP Warning:  Constant MAX_POST_LENGTH already defined in /workspaces/fertio/index.php on line 29
+[24-Jun-2026 12:24:52 UTC] PHP Warning:  Constant SITE_NAME already defined in /workspaces/fertio/index.php on line 30
+[24-Jun-2026 12:24:52 UTC] PHP Warning:  Constant SITE_URL already defined in /workspaces/fertio/index.php on line 31
+[24-Jun-2026 12:28:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getUserById() in /workspaces/fertio/index.php:741
+Stack trace:
+#0 /workspaces/fertio/index.php(232): getPostComments()
+#1 /workspaces/fertio/index.php(6002): getAllPosts()
+#2 /workspaces/fertio/router.php(31): require('...')
+#3 {main}
+  thrown in /workspaces/fertio/index.php on line 741
+[24-Jun-2026 12:33:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getCurrentUser() in /workspaces/fertio/index.php:6190
+Stack trace:
+#0 /workspaces/fertio/router.php(31): require()
+#1 {main}
+  thrown in /workspaces/fertio/index.php on line 6190

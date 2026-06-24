@@ -1,0 +1,6 @@
+
+php_errors.log
+*.log
+test-plan.md
+.DS_Store
+VP/
